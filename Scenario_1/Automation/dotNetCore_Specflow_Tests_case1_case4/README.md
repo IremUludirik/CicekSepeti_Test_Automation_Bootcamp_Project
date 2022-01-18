@@ -25,7 +25,8 @@
   
 # :dart: Case 1 :dart:
 </div align ="center">
-:fish_cake: https://www.mizu.com/login sayfasında kullanıcı adı ve şifre başarılı şekilde sign in olunması.
+
+:white_check_mark: **https://www.mizu.com/login sayfasında kullanıcı adı ve şifre başarılı şekilde sign in olunması.**
 &nbsp;
 
 - Home Page açılır.
@@ -52,7 +53,8 @@
   
 # :dart: Case 4 :dart:
 </div align ="center">
-:fish_cake: https://www.mizu.com/flowers sayfasında gönderim yeri ‘mexico city’ seçilerek ilk ürün sepete eklenir ve ilgili adımlar(sepetim, teslimat adresi,fatura bilgileri) tamamlanarak ‘Oxxo’ ile ödeme alınması kontrol edilir.
+
+:white_check_mark: **https://www.mizu.com/flowers sayfasında gönderim yeri ‘mexico city’ seçilerek ilk ürün sepete eklenir ve ilgili adımlar(sepetim, teslimat adresi,fatura bilgileri) tamamlanarak ‘Oxxo’ ile ödeme alınması kontrol edilir.**
 &nbsp;
 
 - Home Page açılır.
