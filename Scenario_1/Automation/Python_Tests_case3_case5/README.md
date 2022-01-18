@@ -83,4 +83,4 @@ Seçtiğim caseler doğrultusunda, yapılmak istenen işleri hızlı bir şekild
 </div align ="center">
 &nbsp;
 
- :star: [Ayrıca medium üzerinden yazdığım ve adım adım ilerlediğim, "Page Object Model ile Python Test Otomasyonu" yazısına bakmanızı öneririm](https://medium.com/@iremuludirik/page-object-model-ile-python-test-otomasyonu-38d7f10a5658) :star:
+:star: [Ayrıca medium üzerinden yazdığım ve adım adım ilerlediğim, "Page Object Model ile Python Test Otomasyonu" yazısına bakmanızı öneririm](https://medium.com/@iremuludirik/page-object-model-ile-python-test-otomasyonu-38d7f10a5658) :star:
