@@ -13,7 +13,7 @@
 </div align ="center">
 
 
-- Zaman kaybını ve hata oranını en aza indirmek için test otomasyon çalışmaları yapılır. Testlerin verimli 
+- Test otomasyon çalışmaları hem zaman kaybını hem de hata oranını en aza indirmek için  yapılır. Testlerin verimli 
 ve hızlı gerçekleşmesi, yazılım geliştirme süreçlerinde önemli bir katkı sağlamaktadır. 
 - Sürekli gelişen sistemler, aynı test planının tekrar tekrar yürütülmesini gerektirecektir. Bir test otomasyon aracı kullanarak, bu test planını kaydetmek ve gerektiğinde yeniden oynatmak mümkündür.
 - Bu caseler; .netCore kullanılarak C# dilinde yazılmıştır. NUnit, specflow, selenium webdriver gibi teknolojilere yer verilmiştir. Page object model kullanılmış olup, IDE olarak Visual Studio Code ile çalışılmıştır. 
