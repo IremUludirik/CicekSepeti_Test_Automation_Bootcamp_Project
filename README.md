@@ -9,7 +9,7 @@
 
 - [Manuel Test](https://github.com/IremUludirik/CicekSepeti_Test_Automation_Bootcamp_Project/tree/master/Scenario_1/Manual%20test%20cases)
 &nbsp;
-&nbsp;
+&nbsp; 
 
 :pushpin: **Senaryo 1.2: Otomasyon yazılması.**
 &nbsp;
