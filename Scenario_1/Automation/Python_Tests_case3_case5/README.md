@@ -5,15 +5,20 @@
 </div>
 
 :pushpin: **Senaryo 1.2: Otomasyon yazılması.**
+
+- Test otomasyon çalışmaları hem zaman kaybını hem de hata oranını en aza indirmek için yapılır. Testlerin verimli ve hızlı gerçekleşmesi, yazılım geliştirme süreçlerinde önemli bir katkı sağlamaktadır.
+- Sürekli gelişen sistemler, aynı test planının tekrar tekrar yürütülmesini gerektirecektir. Bir test otomasyon aracı kullanarak, bu test planını kaydetmek ve gerektiğinde yeniden oynatmak mümkündür.
+- Bu caseler; Python dilinde yazılmıştır. Python nesne yönelimli, yorumsal, modüler ve etkileşimli, yüksek seviyeli bir dildir.
+Seçtiğim caseler doğrultusunda, yapılmak istenen işleri hızlı bir şekilde daha az kod satırıyla yapılabileceğini düşündüğüm için bu yolu tercih ettim.
+- Her türlü yazılım testi için kullanılan ve test otomasyonu için bir Python frameworkü olan pytest'i kullanıldı. Ayrıca Selenium gibi teknolojilere yer verildi.
+- Page object model kullanılmış olup, IDE olarak PyCharm ile çalışılmıştır. Page Object Model, yani kısaca POM, kod tekrarını azaltmada faydalıdır ve test senaryosu bakımını iyileştirir. Bir uygulamanın her web sayfasını bir sınıf dosyası olarak düşünebiliriz.
+- Testlerin çalışması için, **Pycharm üzerinden, Shift+F10**'a basılması yeterlidir.
 &nbsp;
 
 <div align ="center">
   
 # Python Tests- Case 3 & Case 5 
 </div align ="center">
-
-:fish_cake: Testlerin çalışması için, **Pycharm üzerinden, Shift+F10**'a basılması yeterlidir.
-&nbsp;
 
 :fish_cake: **test_mizu:** Testlerin dahil olduğu klasördür. Driver burada tanımlanmıştır. Setup ve teardown dahilinde browser açılımı ve kapanışı yer almaktadır. Testlerden önce ve sonra çalışır. 
 &nbsp;
