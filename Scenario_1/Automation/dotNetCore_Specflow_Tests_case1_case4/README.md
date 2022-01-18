@@ -10,9 +10,10 @@
 - Test otomasyon çalışmaları hem zaman kaybını hem de hata oranını en aza indirmek için  yapılır. Testlerin verimli 
 ve hızlı gerçekleşmesi, yazılım geliştirme süreçlerinde önemli bir katkı sağlamaktadır. 
 - Sürekli gelişen sistemler, aynı test planının tekrar tekrar yürütülmesini gerektirecektir. Bir test otomasyon aracı kullanarak, bu test planını kaydetmek ve gerektiğinde yeniden oynatmak mümkündür.
-- Bu caseler; .netCore kullanılarak C# dilinde yazılmıştır. NUnit, specflow, selenium webdriver gibi teknolojilere yer verilmiştir. Page object model kullanılmış olup, IDE olarak Visual Studio Code ile çalışılmıştır. 
-- Bu teknolojilerin seçilmesinde senaryodan beklediğimiz cevap ve getirisi önemlidir.
-- Senaryo dışına çıkmadan, farklı datalar ile, testler koşulmaya elverişli olduğu için davranış odaklı bir geliştirme yapmak istedim.
+- Bu caseler; .netCore kullanılarak C# dilinde yazılmıştır. .NET Core, Microsoft ve .NET topluluğu tarafından geliştirilmiş ve geliştirilmeye devam eden, Github üzerinde bulunan açık kaynaklı, çapraz platform geliştirme yapmaya olanak sağlayan bir platformdur. 
+- NUnit, specflow, selenium webdriver gibi teknolojilere yer verilmiştir. Ayrıca VS Code extensionları olarak NuGetPackage Manager, .Net Core Test Explorer, cucumber, Specflow Tools gibi bir çok paket kullanılmıştır.
+- Page object model kullanılmış olup, IDE olarak Visual Studio Code ile çalışılmıştır. Page Object Model, yani kısaca POM, kod tekrarını azaltmada faydalıdır ve test senaryosu bakımını iyileştirir. Bir uygulamanın her web sayfasını bir sınıf dosyası olarak düşünebiliriz.
+- Bu teknolojilerin seçilmesinde senaryodan beklediğimiz cevap ve getirisi önemlidir. Senaryo dışına çıkmadan, farklı datalar ile, testler koşulmaya elverişli olduğu için davranış odaklı bir geliştirme yapmak istedim.
 - Testlerin çalışması için, **VSCode'un kendi terminalinden "dotnet test"** yazılması gerekmektedir. 
 &nbsp;
 
