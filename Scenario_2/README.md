@@ -8,11 +8,13 @@
 &nbsp;
 
 - Bu senaryoda **Postman** ile çalışılmıştır.
+- Postman, kullanıcıların hem basit hem de karmaşık HTTP isteklerini hızlı şekilde bir araya getirmelerini sağlar. Uzun kodlara ihtiyaç duymadan API (Application Programming Interface)’larınızı kolayca test edebileceğiniz, web, mobil gibi API ile iletişim kurulması, test edilmesi, dökümante, monitör ve sanal test ortam yaratılmasını sağlayan güçlü bir HTTP istemcisidir. Bu sebepler doğrultusunda bu senaryoyu postman ile yapmak istedim. Ayrıca chai kütüphanesi ile javascript yazdığımız, esnek kullanışlı bir platformdur.
 - **Collection- JSON linki:** https://www.getpostman.com/collections/95a90ee45c09279ed0d7
 - Her iki case için de **POST metodu** kullanılmıştır.
 - **baseURL:** https://bootcampapi.techcs.io 
 - Body :arrow_right: raw :arrow_right: JSON seçildi ve **{"email": "{{randomEmail}}", "password": "{{randomPassword}}"}** gönderildi.
 - **Environments kısmında** her test için kullanılan başta baseurl olmak üzere, email ve password değerleri vardır.
+
 &nbsp;
  
 <div align ="center"><a href="https://resimlink.com/qg9AUBl" ><img src="https://r.resimlink.com/qg9AUBl.jpg"  alt="ResimLink - Resim Yükle" width="56%"></a></div align ="center"> 
@@ -21,6 +23,8 @@
 - Environment'de tanımlama yaptıktan sonra, değişkenler süslü parantez içerisinde kullanılmıştır : **{{ …VARIABLE…}}**
 - **Pre-request Scriptlerde** environment için set ettiğmiz, testlere uyacak şekilde random email ve password gönderilmiştir.
 &nbsp;
+
+- **Test** kısmında ise bizim requestimize karşılık dönen responsumuzu check ve assert edebilmeizi sağlayan bir ortamdır.
 
 &nbsp;
 
