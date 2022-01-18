@@ -130,4 +130,6 @@ ve hızlı gerçekleşmesi, yazılım geliştirme süreçlerinde önemli bir kat
   
 <a href="https://resimlink.com/o4HAaC" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/o4HAaC.jpg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
 </div align ="center">
-
+ &nbsp;
+ 
+ :star: [Ayrıca medium üzerinden yazdığım, "Page Object Model ile C# .NET Core Test Otomasyonu" yazısına göz atmanızı öneririm](https://medium.com/@iremuludirik/page-object-model-ile-c-net-core-test-otomasyonu-fa01d2da8b64) :star:
