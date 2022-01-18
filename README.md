@@ -6,7 +6,7 @@
 
 :pushpin: **Senaryo 1.1: https://www.mizu.com/login sayfası için manuel test caselerinin çıkartılması.**
 &nbsp;
-
+ 
 - [Manuel Test](https://github.com/IremUludirik/CicekSepeti_Test_Automation_Bootcamp_Project/tree/master/Scenario_1/Manual%20test%20cases)
 &nbsp;
 &nbsp; 
