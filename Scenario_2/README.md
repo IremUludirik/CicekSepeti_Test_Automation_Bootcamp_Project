@@ -59,8 +59,10 @@
 	- No password
 	- No email, no password
   &nbsp;
+  
+  &nbsp;
 	
-- **Newman Raporlama**
+:white_check_mark:**Newman Raporlama**
    - Node.js kuruldu 
    - Komut satırı modunda;
       - npm install npm --global
