@@ -41,6 +41,7 @@
    
 
 **:white_check_mark: Her bir senaryo adımı için yapılan assertionlar:**
+Eklenecek yere sağ tık ile add denir, çıkan listeden assertions typelar seçilir
 - Size assertion
 -  Size assertion
 - Duration assertion
