@@ -6,6 +6,8 @@
 
 :pushpin: **Senaryo 3: https://www.cicek.com header da bulunan search modülü ve arama sonrası gidilen sonuçların listelendiği listeleme sayfasının yük altındaki davranışını incelemek adına yük testleri ve senaryolarına ihtiyaç vardır. İlgili durum için test senaryosunun yazılması. JMeter kullanarak, ilgili senaryoları kodlayın. (1 kullanıcı yeterli).**
 &nbsp;
+- Apache JMeter, çeşitli uygulamaların performansını analiz etmek ve ölçmek için web uygulamalarına odaklanarak bir yük test aracı olarak kullanılabilen bir Apache projesidir.
+- Yük testi: Sunulan uygulamanın belirli bir yük altında nasıl davrandığını (cevaplarda gecikme süresi, kullanıcı deneyimi, vb) gözlemleyen test türüdür.
 
 <div align ="center"><img src="https://imgyukle.com/f/2022/01/18/opOtQp.jpg" alt="opOtQp.jpg" border="0"></div>
 &nbsp;
@@ -31,7 +33,8 @@
     - **Writing Key/Suggest List:** Arama kutucuğuna kelime yazıldığında, öneri listesi oluşur. (Path:/Suggest/Get)
     - **Search:** Kelimeyi aratma yapar (Path:/Arama)
     - **Key Result List:** Aratılan kelime için çıkan sonuçlar (Path:/Catalog/AjaxCategory) 
-    - ***Think Time:** Kullanıcılar için düşünme süresi tanımlanmıştır.
+    - **Think Time:** Kullanıcılar için düşünme süresi tanımlanmıştır.
+    - **Listener:** Sampler’lar tarafından yapılan istekler ve bu isteklere sunucu tarafından verilen cevapların özelliklerinin teker teker, toplu veya kümüle bir şekilde kaydedilmesi işlevini Listener’lar yerine getirmektedir. (view results tree, assertion results, graph results, summary report).
 	    &nbsp;
  
  &nbsp;
