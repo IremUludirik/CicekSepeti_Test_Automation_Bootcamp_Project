@@ -89,4 +89,11 @@ Results ve Screenshots klasöründe detayları ve daha fazlası bulunmaktadır.
   
   HTML ilk iki test raporları
   <div align ="center"><a href="https://imgyukle.com/f/2022/01/18/opaNdo.jpg" ><img src="https://imgyukle.com/f/2022/01/18/opHapR.jpg"  alt="ResimLink - Resim Yükle" width="56%"></a></div align ="center">
-
+	
+	
+	
+ :star: [Ayrıca medium üzerinden yazdığım ve adım adım ilerlediğim, "Postman API Platformu ile JSON Veri Testi" yazısına göz atmanızı öneririm](https://medium.com/@iremuludirik/postman-api-platformu-ile-json-veri-testi-ae15523d3508) :star:
+	&nbsp;
+	
+:star: [Ayrıca medium üzerinden yazdığım ve adım adım ilerlediğim, "API Requestleri ile JSON Responselarına Ulaşmak" yazısına göz atmanızı öneririm](https://medium.com/@iremuludirik/api-requestleri-ile-json-responselar%C4%B1na-ula%C5%9Fmak-be33b26a8a8d) :star:
+	
