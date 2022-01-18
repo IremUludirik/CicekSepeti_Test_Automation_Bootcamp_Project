@@ -63,7 +63,7 @@
 <div align ="center">
   
   # :four_leaf_clover: Sonuçlar :four_leaf_clover: 
-  Results klasöründe detayları ve daha fazlası bulunmaktadır.
+  Results ve Screenshots klasöründe detayları ve daha fazlası bulunmaktadır.
   &nbsp;
   
  <img src="https://imgyukle.com/f/2022/01/18/opOOcI.jpg" alt="opOOcI.jpg" border="0">
