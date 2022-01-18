@@ -31,7 +31,7 @@
 - Home Page açılır.
 - Login Page'e gidilir.
 - E-mail ve password girilir.
-- Başarılı bir şekilde giriş gerçekleşir.
+- Başarılı bir şekilde giriş gerçekleşir. 
 - My Account yazısı kontrol edilir.
 - Çıkış yapılır.
 &nbsp;
