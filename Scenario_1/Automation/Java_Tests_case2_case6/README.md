@@ -7,12 +7,17 @@
 :pushpin: **Senaryo 1.2: Otomasyon yazılması.**
 &nbsp;
 
+- Test otomasyon çalışmaları hem zaman kaybını hem de hata oranını en aza indirmek için  yapılır. Testlerin verimli 
+ve hızlı gerçekleşmesi, yazılım geliştirme süreçlerinde önemli bir katkı sağlamaktadır. 
+- Sürekli gelişen sistemler, aynı test planının tekrar tekrar yürütülmesini gerektirecektir. Bir test otomasyon aracı kullanarak, bu test planını kaydetmek ve gerektiğinde yeniden oynatmak mümkündür.
+- Java, kendi platformunda bağımsız olarak çalışması, yüksek performansı, güvenilir, aynı anda birden fazla işi yapabilmesi ve esnek bir dil olması nedeniyle, bu caseler için uygun gördüğm bir dildir.
+-  Maven öncelikle Java projeleri için kullanılan bir yapı otomasyon aracıdır. Maven ile birlikte testNG, Selenium, Bonigarcia, junit, jsoup gibi kullanılacak paketler yüklendi. 
+- Page object model kullanılmış olup, IDE olarak Intelli J Idea ile çalışılmıştır. Page Object Model, yani kısaca POM, kod tekrarını azaltmada faydalıdır ve test senaryosu bakımını iyileştirir. Bir uygulamanın her web sayfasını bir sınıf dosyası olarak düşünebiliriz.
+- Testlerin çalışması için, **Intelli J Idea üzerinden, Shift+F10**'a basılması yeterlidir.
 <div align ="center">
   
 # Java Tests- Case 2 & Case 6 
-</div align ="center">
-
-:fish_cake: Testlerin çalışması için, **Intelli J Idea üzerinden, Shift+F10**'a basılması yeterlidir.
+</div align ="center"> 
 &nbsp;
 
 :fish_cake: **MizuTest:** Testlerin dahil olduğu klasördür.. 
