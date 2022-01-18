@@ -24,7 +24,7 @@
 - **Pre-request Scriptlerde** environment için set ettiğmiz, testlere uyacak şekilde random email ve password gönderilmiştir.
 &nbsp;
 
-- **Test** kısmında ise bizim requestimize karşılık dönen responsumuzu check ve assert edebilmeizi sağlayan bir ortamdır.
+- **Test** kısmında ise bizim requestimize karşılık dönen responsumuzu, çeşitli testler ile check ve assert edebilmemizi sağlayan bir ortamdır. Javascript yazılır ve Chai kütüphanesi kullanılır.
 
 &nbsp;
 
