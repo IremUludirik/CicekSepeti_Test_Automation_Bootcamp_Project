@@ -1,5 +1,5 @@
 <div align ="center">   
-    
+     
 # :hibiscus: Cicek Sepeti Test Automation Bootcamp Project :hibiscus: 
 
 </div>
@@ -27,7 +27,7 @@
   
   **Yazılan manuel testler**
   &nbsp;
-  
+   
   <a href="https://resimlink.com/ItWa" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/ItWa.jpg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
   <a href="https://resimlink.com/CKhLA" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/CKhLA.jpg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
 &nbsp;
