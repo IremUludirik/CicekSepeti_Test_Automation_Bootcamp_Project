@@ -27,7 +27,7 @@
  
  **:white_check_mark: Test Plan :arrow_right: Sağ Tık :arrow_right: Add :arrow_right: Threads (Users) :arrow_right: Thread Group**
 - **HTTP(S) Test Script Recorder:** Burada HTTPS ile çalışma yapıldığı için, kullanılan browser'ın **sertifika** ayarlarından Jmeter'in sertifikasını yüklenmiştir.
-- **Cicek.com Recorder Result:** Recording Controller'dır. Proxy görevi yapar. Bağlantı kurarak kaydeder ve toplar. Burada HTTP(S) Test Script Recorder kısmında site üzerinde kayıt edilen tüm network ağları bu dosya içine kaydolur.
+- **Cicek.com Recorder Result:** Recording Controller'dır. Proxy görevi yapar. Bağlantı kurarak kaydeder ve toplar. Burada HTTP(S) Test Script Recorder kısmında site üzerinde kayıt edilen tüm network bu dosya içine kaydolur.
 - **Search Box Scanerios:**
     - **Home Page:** cicek.com'un anasayfası (Path:/)
     - **Writing Key/Suggest List:** Arama kutucuğuna kelime yazıldığında, öneri listesi oluşur. (Path:/Suggest/Get)
