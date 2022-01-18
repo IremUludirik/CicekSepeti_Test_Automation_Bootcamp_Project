@@ -75,7 +75,7 @@
 
 <div align ="center">
   
-  # :four_leaf_clover: Sonuçlar :four_leaf_clover:
+  # :four_leaf_clover: Sonuçlar :four_leaf_clover: 
   &nbsp;
   Newman Özet Rapor
   <div align ="center"><a href="https://imgyukle.com/f/2022/01/18/opaNdo.jpg" ><img src="https://imgyukle.com/f/2022/01/18/opaNdo.jpg"  alt="ResimLink - Resim Yükle" width="56%"></a></div align ="center"> 
