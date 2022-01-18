@@ -46,7 +46,7 @@
 - Ardından confirmation kutucuğu checklenmiştir.
 - Next butonuna basılarak sepetim'e gidilmiştir.
 - Sepetime eklendiği kontrol edilmiştir.
-&nbsp;
+&nbsp; 
 
 *:exclamation: **Not:** Detaylar kod içerisinde, yorum satırlarında açıklanmıştır.*
 &nbsp;
