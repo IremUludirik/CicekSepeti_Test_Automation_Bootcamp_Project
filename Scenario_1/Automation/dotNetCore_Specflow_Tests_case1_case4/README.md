@@ -132,4 +132,4 @@ ve hızlı gerçekleşmesi, yazılım geliştirme süreçlerinde önemli bir kat
 </div align ="center">
  &nbsp;
  
- :star: [Ayrıca medium üzerinden yazdığım, "Page Object Model ile C# .NET Core Test Otomasyonu" yazısına göz atmanızı öneririm](https://medium.com/@iremuludirik/page-object-model-ile-c-net-core-test-otomasyonu-fa01d2da8b64) :star:
+:star: [Ayrıca medium üzerinden yazdığım ve adım adım ilerlediğim, "Page Object Model ile C# .NET Core Test Otomasyonu" yazısına göz atmanızı öneririm](https://medium.com/@iremuludirik/page-object-model-ile-c-net-core-test-otomasyonu-fa01d2da8b64) :star::
