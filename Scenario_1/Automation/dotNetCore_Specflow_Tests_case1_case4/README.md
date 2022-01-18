@@ -7,22 +7,20 @@
 :pushpin: **Senaryo 1.2: Otomasyon yazılması.**
 &nbsp;
 
-<div align ="center">
-  
-# .netCore Spectflow Tests- Case 1 & Case 4 
-</div align ="center">
-
-
 - Test otomasyon çalışmaları hem zaman kaybını hem de hata oranını en aza indirmek için  yapılır. Testlerin verimli 
 ve hızlı gerçekleşmesi, yazılım geliştirme süreçlerinde önemli bir katkı sağlamaktadır. 
 - Sürekli gelişen sistemler, aynı test planının tekrar tekrar yürütülmesini gerektirecektir. Bir test otomasyon aracı kullanarak, bu test planını kaydetmek ve gerektiğinde yeniden oynatmak mümkündür.
 - Bu caseler; .netCore kullanılarak C# dilinde yazılmıştır. NUnit, specflow, selenium webdriver gibi teknolojilere yer verilmiştir. Page object model kullanılmış olup, IDE olarak Visual Studio Code ile çalışılmıştır. 
 - Bu teknolojilerin seçilmesinde senaryodan beklediğimiz cevap ve getirisi önemlidir.
 - Senaryo dışına çıkmadan, farklı datalar ile, testler koşulmaya elverişli olduğu için davranış odaklı bir geliştirme yapmak istedim.
+- Testlerin çalışması için, **VSCode'un kendi terminalinden "dotnet test"** yazılması gerekmektedir. 
 &nbsp;
 
-:fish_cake: Testlerin çalışması için, **VSCode'un kendi terminalinden "dotnet test"** yazılması gerekmektedir.
-&nbsp;
+<div align ="center">
+  
+# .netCore Spectflow Tests- Case 1 & Case 4 
+</div align ="center">
+
 
 :fish_cake:**Feature:** Bir çeşit konu başlığı, devamında anlatılacak özelliği tanımlar.
 &nbsp;
