@@ -25,7 +25,7 @@
 - **Test Browser:** Chrome 97.0
 <div align ="center">
   
-  **Yazılan manuel testler**
+ # :four_leaf_clover: Yazılan Manuel Testler :four_leaf_clover: 
   &nbsp;
    
   <a href="https://resimlink.com/ItWa" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/ItWa.jpg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
