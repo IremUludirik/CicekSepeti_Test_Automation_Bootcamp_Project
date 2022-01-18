@@ -99,7 +99,7 @@
 
 <div align ="center">
   
-  **Test Sonuçları**
+  # :four_leaf_clover: Sonuçlar :four_leaf_clover:
   &nbsp;
   
 <a href="https://resimlink.com/o4HAaC" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/o4HAaC.jpg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
