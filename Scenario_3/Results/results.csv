@@ -1,0 +1,39 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1642490475086,2414,Home Page,200,OK,Thread Group 1-1,text,false,"The operation lasted too long: It took 2,414 milliseconds, but should not have lasted longer than 2,000 milliseconds.",23758,490,1,1,https://www.cicek.com/,2355,0,1995
+1642490478985,340,Writing Key / Suggest List,200,OK,Thread Group 1-1,text,true,,1613,422,1,1,https://www.cicek.com/Suggest/Get?key=papatya,340,0,0
+1642490480857,423,Search,200,OK,Thread Group 1-1,text,true,,18477,670,1,1,https://www.cicek.com/Arama?query=papatya,422,0,0
+1642490482773,445,Key Result List,200,OK,Thread Group 1-1,text,true,,9314,712,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=papatya,443,0,0
+1642490484638,111,Home Page,200,OK,Thread Group 1-1,text,true,,23758,637,1,1,https://www.cicek.com/,98,0,0
+1642490486212,484,Writing Key / Suggest List,200,OK,Thread Group 1-1,text,true,,1265,566,1,1,https://www.cicek.com/Suggest/Get?key=kupa,484,0,0
+1642490488145,1023,Search,200,OK,Thread Group 1-1,text,true,,18480,667,1,1,https://www.cicek.com/Arama?query=kupa,1022,0,0
+1642490490609,496,Key Result List,200,OK,Thread Group 1-1,text,true,,6521,709,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=kupa,495,0,0
+1642490492620,102,Home Page,200,OK,Thread Group 1-1,text,true,,23758,637,1,1,https://www.cicek.com/,97,0,0
+1642490494240,238,Writing Key / Suggest List,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /…..../,942,575,1,1,https://www.cicek.com/Suggest/Get?key=%E2%80%A6....,238,0,0
+1642490495959,271,Search,200,OK,Thread Group 1-1,text,true,,17997,675,1,1,https://www.cicek.com/Arama?query=%E2%80%A6....,268,0,0
+1642490497660,2352,Key Result List,200,OK,Thread Group 1-1,text,true,"The operation lasted too long: It took 2,352 milliseconds, but should not have lasted longer than 2,000 milliseconds.",4455,717,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=%E2%80%A6....,2352,0,0
+1642490501429,99,Home Page,200,OK,Thread Group 1-1,text,true,,23758,636,1,1,https://www.cicek.com/,94,0,0
+1642490502995,292,Writing Key / Suggest List,200,OK,Thread Group 1-1,text,true,,1337,573,1,1,https://www.cicek.com/Suggest/Get?key=menek%C5%9Fe,291,0,0
+1642490504722,155,Search,200,OK,Thread Group 1-1,text,true,,18002,674,1,1,https://www.cicek.com/Arama?query=menek%C5%9Fe,138,0,0
+1642490506305,524,Key Result List,200,OK,Thread Group 1-1,text,true,,5152,716,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=menek%C5%9Fe,523,0,0
+1642490508271,96,Home Page,200,OK,Thread Group 1-1,text,true,,24247,636,1,1,https://www.cicek.com/,84,0,0
+1642490509818,304,Writing Key / Suggest List,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /bootcamp/,942,569,1,1,https://www.cicek.com/Suggest/Get?key=bootcamp,304,0,0
+1642490511577,371,Search,200,OK,Thread Group 1-1,text,true,,17989,670,1,1,https://www.cicek.com/Arama?query=bootcamp,370,0,0
+1642490513433,460,Key Result List,200,OK,Thread Group 1-1,text,true,Test failed: text expected to contain /ürün bulundu/,4690,712,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=bootcamp,460,0,0
+1642490515381,665,Home Page,200,OK,Thread Group 1-1,text,true,,23758,636,1,1,https://www.cicek.com/,664,0,0
+1642490517539,392,Writing Key / Suggest List,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /asdsaf/,702,567,1,1,https://www.cicek.com/Suggest/Get?key=asdsaf,392,0,0
+1642490519342,336,Search,200,OK,Thread Group 1-1,text,true,,18382,668,1,1,https://www.cicek.com/Arama?query=asdsaf,334,0,0
+1642490521137,284,Key Result List,200,OK,Thread Group 1-1,text,true,Test failed: text expected to contain /ürün bulundu/,4688,710,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=asdsaf,283,0,0
+1642490522903,97,Home Page,200,OK,Thread Group 1-1,text,true,,23758,636,1,1,https://www.cicek.com/,96,0,0
+1642490524465,175,Writing Key / Suggest List,500,Internal Server Error,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,4954,570,1,1,https://www.cicek.com/Suggest/Get?key=%3CEOF%3E,175,0,0
+1642490526119,104,Search,500,Internal Server Error,Thread Group 1-1,text,true,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",4977,671,1,1,https://www.cicek.com/Arama?query=%3CEOF%3E,102,0,0
+1642490527690,154,Key Result List,500,Internal Server Error,Thread Group 1-1,text,true,Test failed: code expected to contain /200/,4954,713,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=%3CEOF%3E,152,0,0
+1642490529331,96,Home Page,200,OK,Thread Group 1-1,text,true,,23758,636,1,1,https://www.cicek.com/,86,0,0
+1642490530905,951,Writing Key / Suggest List,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain />£#$#$½$½*^2/,1330,602,1,1,https://www.cicek.com/Suggest/Get?key=%3E%C2%A3%23%24%23%24%C2%BD%24%C2%BD*%5E2,951,0,0
+1642490533278,644,Search,200,OK,Thread Group 1-1,text,true,Test failed: text expected to contain />£#$#$½$½*^2/,18074,703,1,1,https://www.cicek.com/Arama?query=%3E%C2%A3%23%24%23%24%C2%BD%24%C2%BD*%5E2,641,0,0
+1642490535434,724,Key Result List,200,OK,Thread Group 1-1,text,true,Test failed: text expected to contain />£#$#$½$½*^2/,5681,745,1,1,https://www.cicek.com/Catalog/AjaxCategory?query=%3E%C2%A3%23%24%23%24%C2%BD%24%C2%BD*%5E2,724,0,330

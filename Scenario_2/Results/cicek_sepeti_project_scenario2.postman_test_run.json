@@ -1,0 +1,1419 @@
+{
+	"id": "b9670d64-efec-4035-a749-22ffac90d0db",
+	"name": "cicek_sepeti_project_scenario2",
+	"timestamp": "2022-01-18T02:55:55.171Z",
+	"collection_id": "18588639-bd7f2cb9-8869-4228-8003-47a044dead3a",
+	"folder_id": 0,
+	"environment_id": "ab687cd7-2d89-4d32-9870-8f69a8f01d96",
+	"totalPass": 169,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "5bf647a7-543b-4c40-adfe-653d91b6dfd9",
+			"name": "Signup- Successful",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 1092,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Status code is 200": false,
+				"Access token place": true,
+				"Type of access_token": true,
+				"Length of access_token": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Access token place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of access_token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of access_token": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1092
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Status code is 200": false,
+					"Access token place": true,
+					"Type of access_token": true,
+					"Length of access_token": true
+				}
+			]
+		},
+		{
+			"id": "6844a26d-066f-4748-bdf4-11ca97ba7b90",
+			"name": "Signup- Same account",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 212,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 409": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Upper first letter for sign up again message ": true,
+				"Sign up again message": true,
+				"Type of sign up again message ": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 409": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				212
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 409": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Upper first letter for sign up again message ": true,
+					"Sign up again message": true,
+					"Type of sign up again message ": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "124accb7-b44f-47cb-8c2e-d263be8da0d9",
+			"name": "Signup- Big email size",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 93,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 400": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Length of message": true,
+				"Type of message keys": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of message keys": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 400": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Length of message": true,
+					"Type of message keys": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "10626725-bb2c-4446-917b-75fd8f414e21",
+			"name": "Signup- Small email size",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 89,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 400": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Length of message": true,
+				"Type of message keys": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of message keys": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				89
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 400": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Length of message": true,
+					"Type of message keys": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "4ebdb05e-d8a0-4cb2-8419-fa4cfa9e6a16",
+			"name": "Signup- No email",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 97,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 400": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Length of message": true,
+				"Type of message keys": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of message keys": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 400": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Length of message": true,
+					"Type of message keys": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "c28ea18c-851a-4a6e-b7b0-647b180d2703",
+			"name": "Signup- Big password",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 95,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 400": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Length of message": true,
+				"Type of message keys": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of message keys": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				95
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 400": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Length of message": true,
+					"Type of message keys": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "7962e0e5-7d77-4fb8-a6e7-f9b7010f9d89",
+			"name": "Signup- Small password",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 88,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 400": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Length of message": true,
+				"Type of message keys": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of message keys": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				88
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 400": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Length of message": true,
+					"Type of message keys": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "c5b72906-201f-4b5e-aeda-8a128cf397c8",
+			"name": "Signup- No password",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 98,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 400": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Length of message": true,
+				"Type of message keys": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of message keys": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 400": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Length of message": true,
+					"Type of message keys": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "cbab08ae-02c9-4fc8-af82-efefb4d0e980",
+			"name": "Signup- No email, no password",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signup",
+			"time": 87,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Sign up again status code place": true,
+				"Status code is 400": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Length of message": true,
+				"Type of message keys": true,
+				"Sign up again error place": true,
+				"Upper first letter for sign up again error ": true,
+				"Sign up again error": true,
+				"Type of sign up again error ": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of message keys": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of sign up again error ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Sign up again status code place": true,
+					"Status code is 400": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Length of message": true,
+					"Type of message keys": true,
+					"Sign up again error place": true,
+					"Upper first letter for sign up again error ": true,
+					"Sign up again error": true,
+					"Type of sign up again error ": true
+				}
+			]
+		},
+		{
+			"id": "2ded63d6-20d1-4f17-af49-840ceeec714b",
+			"name": "Signin- Successful",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signin",
+			"time": 198,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Status code name has string": true,
+				"Status code is 200": false,
+				"Access token place": true,
+				"Type of access_token": true,
+				"Length of access_token": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Access token place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of access_token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of access_token": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				198
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Status code name has string": true,
+					"Status code is 200": false,
+					"Access token place": true,
+					"Type of access_token": true,
+					"Length of access_token": true
+				}
+			]
+		},
+		{
+			"id": "7aab3c39-cc1a-4eac-995a-57a1927eba1a",
+			"name": "Signin- Wrong email",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signin",
+			"time": 83,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Sign up again status code place": true,
+				"Status code is 401": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Upper first letter for sign up again message ": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Sign up again status code place": true,
+					"Status code is 401": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Upper first letter for sign up again message ": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "72df792d-b8bf-4ab3-92fc-57f01746354c",
+			"name": "Signin- No email",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signin",
+			"time": 80,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Sign up again status code place": true,
+				"Status code is 401": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Upper first letter for sign up again message ": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Sign up again status code place": true,
+					"Status code is 401": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Upper first letter for sign up again message ": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "a45f2ee3-d5ae-422d-8ca7-7e955f504a38",
+			"name": "Signin- Wrong password",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signin",
+			"time": 82,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Sign up again status code place": true,
+				"Status code is 401": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Upper first letter for sign up again message ": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Sign up again status code place": true,
+					"Status code is 401": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Upper first letter for sign up again message ": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "94438970-49eb-4d64-b6f5-8aa95d7325d1",
+			"name": "Signin- No password",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signin",
+			"time": 101,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Sign up again status code place": true,
+				"Status code is 401": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Upper first letter for sign up again message ": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Sign up again status code place": true,
+					"Status code is 401": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Upper first letter for sign up again message ": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "b9e35cca-2ceb-42b6-9443-b54073b7f7ff",
+			"name": "Signin- No email, no password",
+			"url": "https://bootcampapi.techcs.io/api/fe/v1/authorization/signin",
+			"time": 83,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Type of body ": true,
+				"Length of body": true,
+				"Sign up again status code place": true,
+				"Status code is 401": true,
+				"Type of status code ": true,
+				"Sign up again message place": true,
+				"Type message ": true,
+				"Upper first letter for sign up again message ": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Type of body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length of body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again status code place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up again message place": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Upper first letter for sign up again message ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Type of body ": true,
+					"Length of body": true,
+					"Sign up again status code place": true,
+					"Status code is 401": true,
+					"Type of status code ": true,
+					"Sign up again message place": true,
+					"Type message ": true,
+					"Upper first letter for sign up again message ": true,
+					"Status code name has string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2578,
+	"collection": {
+		"requests": [
+			{
+				"id": "5bf647a7-543b-4c40-adfe-653d91b6dfd9",
+				"method": "POST"
+			},
+			{
+				"id": "6844a26d-066f-4748-bdf4-11ca97ba7b90",
+				"method": "POST"
+			},
+			{
+				"id": "124accb7-b44f-47cb-8c2e-d263be8da0d9",
+				"method": "POST"
+			},
+			{
+				"id": "10626725-bb2c-4446-917b-75fd8f414e21",
+				"method": "POST"
+			},
+			{
+				"id": "4ebdb05e-d8a0-4cb2-8419-fa4cfa9e6a16",
+				"method": "POST"
+			},
+			{
+				"id": "c28ea18c-851a-4a6e-b7b0-647b180d2703",
+				"method": "POST"
+			},
+			{
+				"id": "7962e0e5-7d77-4fb8-a6e7-f9b7010f9d89",
+				"method": "POST"
+			},
+			{
+				"id": "c5b72906-201f-4b5e-aeda-8a128cf397c8",
+				"method": "POST"
+			},
+			{
+				"id": "cbab08ae-02c9-4fc8-af82-efefb4d0e980",
+				"method": "POST"
+			},
+			{
+				"id": "2ded63d6-20d1-4f17-af49-840ceeec714b",
+				"method": "POST"
+			},
+			{
+				"id": "7aab3c39-cc1a-4eac-995a-57a1927eba1a",
+				"method": "POST"
+			},
+			{
+				"id": "72df792d-b8bf-4ab3-92fc-57f01746354c",
+				"method": "POST"
+			},
+			{
+				"id": "a45f2ee3-d5ae-422d-8ca7-7e955f504a38",
+				"method": "POST"
+			},
+			{
+				"id": "94438970-49eb-4d64-b6f5-8aa95d7325d1",
+				"method": "POST"
+			},
+			{
+				"id": "b9e35cca-2ceb-42b6-9443-b54073b7f7ff",
+				"method": "POST"
+			}
+		]
+	}
+}
