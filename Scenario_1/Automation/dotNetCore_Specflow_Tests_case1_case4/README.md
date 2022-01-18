@@ -36,7 +36,7 @@
 - Başarılı bir şekilde giriş gerçekleşir.
 - My Account yazısı kontrol edilir.
 - Çıkış yapılır.
- &nbsp;
+&nbsp;
 
 :fish_cake: **LoginPage:** Senaryoya uygun stepler yer alır.
 &nbsp;
@@ -44,7 +44,11 @@
 :fish_cake: **LoginSteps:** LoginPage sayfasından stepleri çeker.
 &nbsp;
 
+*:exclamation: **Not:** Detayla kod içerisinde, yorum satırlarında açıklanmıştır.*
+&nbsp;
 
 *:exclamation: **Not:** Login.feature dosyasında belirtilen, 3 farklı email ve password ile test edilmiştir.*
 &nbsp;
+
+
 
