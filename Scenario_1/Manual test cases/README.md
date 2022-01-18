@@ -7,9 +7,12 @@
 :pushpin: **Senaryo 1.1: https://www.mizu.com/login sayfası için manuel test caselerinin çıkartılması.**
 &nbsp;
 
-- [Manuel Test için hazırlanan Excel Sayfasına buradan ulaşabilirsiniz.](https://docs.google.com/spreadsheets/d/1ZwhyRDwTawMpwOTFRqDBXei_6_InI9zZHUSVti3X-Bs/edit#gid=0)
+:white_check_mark: [Manuel Test için hazırlanan Excel Sayfasına buradan ulaşabilirsiniz.](https://docs.google.com/spreadsheets/d/1ZwhyRDwTawMpwOTFRqDBXei_6_InI9zZHUSVti3X-Bs/edit#gid=0)
 &nbsp;
-&nbsp;
+
+- Excel üzerinden mauel test gerçekleştirilmiştir.
+- Site ingilizce olduğu için, temel düzeyde ingilizce dili kullanılarak hazırlanmıştır.
+- Manuel test, test senaryolarını otomatik bir araç kullanılmadan manuel olarak bir yazılımın / uygulamanın hatalar, kusurlar ve / veya güvenlik açıkları için manuel olarak gözden geçirilmesi ve test edilmesi işlemidir.
 - **Üzerinde test yapılan URL:** https://www.mizu.com/login
 - **Test Case (TC):** 21 adet.
 - **Screen/Module:** Testin gerçekleşmesi için bulunulması gereken sayfalar (Login Page).
